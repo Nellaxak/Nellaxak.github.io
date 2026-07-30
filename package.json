@@ -1,0 +1,25 @@
+{
+  "name": "express-hello-world",
+  "version": "1.0.0",
+  "description": "Express Hello World on Render",
+  "main": "app.js",
+  "repository": "https://github.com/render-examples/express-hello-world",
+  "author": "Render Developers",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "express": "^5.0.0",
+    "rxdb": "^16.21.1",
+    "stream": "^0.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.6",
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.0"
+  }
+}
